@@ -1,0 +1,37 @@
+.gallery, .gallery2 {
+  max-width: max-content;
+  margin: auto;
+}
+
+.gallery .photos, .gallery2 .photos {
+  height: 400px;
+  width: 520px;
+  position: relative;
+}
+
+.gallery .photos img, .gallery2 .photos img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 480px;
+  max-width: 100%;
+  opacity: 0;
+  transition: opacity .8s ease-in-out;
+}
+
+.gallery .photos .showed, .gallery2 .photos .showed {
+  opacity: 1;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #dea;
+  height: 100px;
+}
+
+.buttons input {
+  padding: 5px 10px;
+  cursor: pointer;
+}

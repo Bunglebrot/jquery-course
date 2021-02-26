@@ -1,0 +1,39 @@
+body {
+  background-color: hsla(190, 50%, 40%, .5);
+  font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form {
+  background-color: hsla(190, 50%, 40%, .5);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 320px;
+  min-height: 400px;
+  margin: auto;
+  box-shadow:  1px 1px 10px rgba(218, 112, 13, 0.836);
+  transition: background-color .4s ease-in-out,
+  box-shadow .4s ease-in-out;
+}
+
+.form:hover {
+  background-color: hsla(190, 50%, 40%, .3);
+  box-shadow: none;
+}
+
+.form__input {
+  padding: 5px 12px;
+}
+
+.form__input_error {
+  outline: 2px solid tomato;
+}
+
+.form__btn {
+  padding: 5px 12px;
+  align-self: start;
+  cursor: pointer;
+  background-color: orange;
+  text-transform: uppercase;
+}
