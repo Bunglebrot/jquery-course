@@ -1,0 +1,32 @@
+input[type=button] {
+  cursor: pointer;
+  padding: 5px 12px;
+  background-color: wheat;
+  border: none;
+  transition: background-color .2s ease-in-out,
+  color .2s ease-in-out;
+}
+
+input[type=button]:disabled {
+  background-color: transparent;
+  color: white;
+}
+
+input[type=text] {
+  padding: 5px 12px;
+}
+
+h2 {
+  color: wheat;
+  text-shadow: 2px 2px 4px #333;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: white;
+}
+
+body > div {
+  background-color: rgb(153, 80, 67);
+  padding: 30px;
+}
