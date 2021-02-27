@@ -1,0 +1,30 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.faq {
+  background-color: rgb(48, 47, 47);
+}
+
+.faq__header {
+  color:#ccc;
+}
+
+.faq__list {
+  max-width: 320px;
+  background-color: rgba(60, 20, 40, .4);
+}
+
+.faq__question {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.faq__answer {
+  background-color: #ccc;
+  display: none;
+}
+
+.faq__question, .faq__answer {
+  padding: 12px;
+}
